@@ -17,8 +17,8 @@ En los hospitales y laboratorios, donde los recursos humanos y tecnológicos son
 El alcance del proyecto comprende el diseño, desarrollo, construcción y validación funcional de un prototipo de centrífuga híbrida capaz de operar como micro y macrocéntrifuga, incluyendo el modelado mecánico de la carcasa, soportes y rotores mediante software CAD; la fabricación de los componentes estructurales mediante impresión 3D; la integración de un sistema de control esclavo para regular la velocidad de rotación
 </p>
 
-####📚 TECNOLOGÍAS UTILIZADAS <p>
-**1. Seguridad: **Los sensores de temperatura son para controlar el estado de los componentes dado que se trabaaja con componentes como la batería. 
+#### 📚 TECNOLOGÍAS UTILIZADAS <p>
+**1. Seguridad:** Los sensores de temperatura son para controlar el estado de los componentes dado que se trabaaja con componentes como la batería. 
 
 **2. Sistemas de comunicación:** El sistema emplea una arquitectura de comunicación sencilla y eficiente basada en tres canales principales. 
 - El sensor BME280 utiliza la interfaz I²C, permitiendo la transmisión de datos ambientales (temperatura y presión) mediante un bus digital de dos líneas que reduce el cableado y facilita la integración con el microcontrolador. 
@@ -26,7 +26,7 @@ El alcance del proyecto comprende el diseño, desarrollo, construcción y valida
 Finalmente, se utiliza comunicación serial para monitorear valores, registrar datos o realizar configuraciones durante la etapa de pruebas y validación del prototipo. Esta combinación de protocolos permite un sistema de control estable, de rápida respuesta y fácilmente ampliable.
 </p>
 
-###:fa-file-photo-o: DIAGRAMA DE FUNCIONAMIENTO <p>
+#### DIAGRAMA DE FUNCIONAMIENTO <p>
 
 </p>
 
@@ -54,7 +54,7 @@ Finalmente, se utiliza comunicación serial para monitorear valores, registrar d
 - Sistema de ventilación para evitar sobrecalentamiento.
 </p>
 
-###:fa-users: ROLES ASIGNADOS <p>
+#### ROLES ASIGNADOS <p>
 *Aracely Melva: *Modularización del Proyecto, Revisión de piezas no electrónicas y Revisión del código de sensores.
 
 *Joseph Iquize:* Revisión de componentes esenciales (MotorBrushless), Evaluación de costos y Pruebas Físicas.
@@ -62,11 +62,11 @@ Finalmente, se utiliza comunicación serial para monitorear valores, registrar d
 *Ingrid Cruz:* Simulaciones de diseño, Repositorio, Asignación de tareas FreeRTOS, Revisión tecnológica y Diapositivas.
 </p>
 
-###📚 MATERIALES<p>
+#### 📚 MATERIALES<p>
 Seleccionados en la primera fase
 <p>
 
-###:fa-bar-chart: AVANCES<p>
+### AVANCES<p>
 - Revision de los parametros que se debe cumplir con el proyecto
 - Evaluacion de tecnologias necesarias
 <p>
