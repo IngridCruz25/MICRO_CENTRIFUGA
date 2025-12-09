@@ -1,13 +1,12 @@
 # MICRO_CENTRIFUGA
-Proyecto Final - Sistemas Embebidos
-📌 MICRO-MACRO CENTRIFUGA
+📌 Proyecto Final - Sistemas Embebidos
 
 AUTORES: 
 - Aracely Zubieta
 - Ingrid Cruz
 - Joseph Iquize
 
-INTRODUCCIÓN
+📚 INTRODUCCIÓN
 El presente anteproyecto tiene como objetivo el desarrollo de un prototipo funcional de una centrifuga que permita realizar separaciones de sólidos y líquidos es una de las técnicas más utilizadas en los laboratorios clínicos, biomédicos y de investigación, pues permite la separación de componentes de una muestra mediante la aplicación de la fuerza centrífuga. 
 
 🧩 JUSTIFICACIÓN
