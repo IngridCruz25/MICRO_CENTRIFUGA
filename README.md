@@ -1,4 +1,4 @@
-# 💡 MICRO MACRO CENTRÍFUGA - ESP32
+# 💡 MACRO CENTRÍFUGA - ESP32
 **Proyecto Final - Sistemas Embebidos**
 
 Este repositorio contiene el desarrollo de un **sistema embebido** para una Micromacrocentrífuga, capaz de controlar un motor de alta velocidad mediante un **ESC**, medir las **RPM reales con un encoder**, registrar **temperatura interna** mediante un **BME280**, y permitir al usuario manipular la velocidad mediante un potenciómetro.
@@ -14,8 +14,6 @@ En hospitales y laboratorios con recursos limitados, la adquisición de múltipl
 ✔ Ofrecer una alternativa accesible para centros educativos y hospitales de segundo nivel.
 
 ✔  Reducir costos de adquisición y mantenimiento.
-
-✔ Ahorrar espacio.
 
 ## 🏥 ALCANCE DEL PROYECTO
 
@@ -41,8 +39,6 @@ Control de batería LiPo: protección contra descarga peligrosa.
 **2. Sistema de Comunicación**
 
 - I²C → BME280
-
-- Serial UART → Monitoreo de pruebas
 
 - Entradas digitales → Encoder incremental
 
@@ -116,8 +112,6 @@ Cada 500 ms se envía un paquete con:
 - PWM enviado al ESC
 
 - RPM medidas
-
-- Temperatura (si disponible)
 
 ## ✨ CARACTERÍSTICAS PRINCIPALES
 ✔ Control del motor mediante ESC: PWM 50 Hz, rango seguro 1000–2000 microsegundos y aceleración suave.
@@ -252,9 +246,9 @@ Sensor ambiental para evitar sobrecalentamiento.
 
 ## 👤 ROLES ASIGNADOS
 
-- Aracely Melva	Modularización, revisión mecánica, revisión de sensores
-- Joseph Iquize	Motores, pruebas físicas, costos
-- Ingrid Cruz	Simulaciones, repositorio, FreeRTOS, revisión tecnológica, diapositivas
+- Aracely Melva:	Modularización, revisión mecánica, revisión de sensores
+- Joseph Iquize:	Motores, pruebas físicas, costos, documentación
+- Ingrid Cruz:	Simulaciones, repositorio, FreeRTOS, revisión tecnológica, documentación
 
 ## DOCUMENTACIÓN
 
