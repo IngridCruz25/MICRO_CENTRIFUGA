@@ -119,8 +119,6 @@ Cada 500 ms se envía un paquete con:
 
 - Temperatura (si disponible)
 
-![DIAGRAMA DE FMS](hhttps://github.com/IngridCruz25/MICRO_CENTRIFUGA/blob/92060eb0a3998ebec707785761aa640f046ac42a/IMG/5%20FMS.jpeg)
-
 ## ✨ CARACTERÍSTICAS PRINCIPALES
 ✔ Control del motor mediante ESC: PWM 50 Hz, rango seguro 1000–2000 microsegundos y aceleración suave.
 
