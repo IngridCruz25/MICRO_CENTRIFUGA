@@ -46,8 +46,6 @@ Control de batería LiPo: protección contra descarga peligrosa.
 
 - Entradas digitales → Encoder incremental
 
-![🖼 DIAGRAMA FUNCIONAL](https://github.com/IngridCruz25/MICRO_CENTRIFUGA/blob/92060eb0a3998ebec707785761aa640f046ac42a/IMG/3%20DIAGRAMA%20FUNCIONAL.jpeg)
-
 ## ⚙ DIAGRAMA DE FUNCIONAMIENTO
 ![🖼 DIAGRAMA FUNCIONAL](https://github.com/IngridCruz25/MICRO_CENTRIFUGA/blob/92060eb0a3998ebec707785761aa640f046ac42a/IMG/3%20DIAGRAMA%20FUNCIONAL.jpeg)
 
@@ -65,7 +63,7 @@ A continuación se presenta una tabla técnica de los componentes principales:
  | BME280 | Sensor ambiente| Muy preciso, bajo consumo
  |  | Comunicación BME280 | 
 
-📎 ![COMPONENTES](https://github.com/IngridCruz25/MICRO_CENTRIFUGA/blob/92060eb0a3998ebec707785761aa640f046ac42a/IMG/2%20COMPONENTES%20ELECTR%C3%93NICOS.jpeg)
+![COMPONENTES](https://github.com/IngridCruz25/MICRO_CENTRIFUGA/blob/92060eb0a3998ebec707785761aa640f046ac42a/IMG/2%20COMPONENTES%20ELECTR%C3%93NICOS.jpeg)
 
 
 ## 🔍 DESCRIPCIÓN GENERAL DEL FUNCIONAMIENTO
@@ -212,20 +210,6 @@ La temperatura se lee correctamente
 - RPM estables durante toda la prueba
 
 ### BLOQUE 🅓 — Máquina de Estados (FSM) 
-
-| IDENTIFICATIVO | EVENTOS | 
-| - | - |
-| SISTEMA_DETENIDO | POT_CHANGED |
-| SISTEMA_DETENIDO | TEMP_HIGH |
-| TAPA_ABIERTA | RPM_OK | 
-| ESPERANDO_USUARIO | RPM_LOSS | 
-| ACELERANDO | STOP_CMD |
-| EN_RPM | TAPA_OPEN |
-| SOBRECALENTAMIENTO | ENCODER_FAIL |
-| DESEQUILIBRIO | | 
-| DESCELERANDO | | 
-| ERROR_SISTEMA | |
-
 ![MÁQUINA DE ESTADOS](https://github.com/IngridCruz25/MICRO_CENTRIFUGA/blob/92060eb0a3998ebec707785761aa640f046ac42a/IMG/5%20FMS.jpeg)
 
 ### BLOQUE 🅔 — Validación y pulido final
@@ -286,18 +270,3 @@ Proyecto desarrollado por los estudiantes:
 - [@Aracely Melva Zubieta Morales](https://github.com/AracelyZubieta)
 
 - [@Joseph Santiago Iquize Condori](https://github.com/josephiquize-674)
-
-## Demo
-
-Insert gif or link to demo
-
-
-
-
-## Screenshots
-
-![Ensamblaje 3D](https://microcentrifuga.com.bo)
-## Documentation
-
-[Documentation](https://linktodocumentation)
-
