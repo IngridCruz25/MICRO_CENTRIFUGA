@@ -1,4 +1,4 @@
-# 💡 MACRO CENTRÍFUGA - ESP32
+# 💡 MICRO CENTRÍFUGA - ESP32
 **Proyecto Final - Sistemas Embebidos**
 
 Este repositorio contiene el desarrollo de un **sistema embebido** para una Micromacrocentrífuga, capaz de controlar un motor de alta velocidad mediante un **ESC**, medir las **RPM reales con un encoder**, registrar **temperatura interna** mediante un **BME280**, y permitir al usuario manipular la velocidad mediante un potenciómetro.
