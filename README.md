@@ -1,7 +1,7 @@
 # 💡 MICRO CENTRÍFUGA - ESP32
 **Proyecto Final - Sistemas Embebidos**
 
-Este repositorio contiene el desarrollo de un **sistema embebido** para una Micromacrocentrífuga, capaz de controlar un motor de alta velocidad mediante un **ESC**, medir las **RPM reales con un encoder**, registrar **temperatura interna** mediante un **BME280**, y permitir al usuario manipular la velocidad mediante un potenciómetro.
+Este repositorio contiene el desarrollo de un **sistema embebido** para una Microcentrífuga, capaz de controlar un motor de alta velocidad mediante un **ESC**, medir las **RPM reales con un encoder**, registrar **temperatura interna** mediante un **BME280**, y permitir al usuario manipular la velocidad mediante un potenciómetro.
 
 El sistema está diseñado bajo una arquitectura modular y escalable, preparada para migrar a **FreeRTOS**, y optimizada para aplicaciones biomédicas de giro y separación de muestras.
 
@@ -53,8 +53,8 @@ A continuación se presenta una tabla técnica de los componentes principales:
 | ESC (motor) | Brushless	A2212 | Generar rotación de alta velocidad	Alta estabilidad, eficiencia, usado en drones | 4 |	Control PWM 1000–2000 us |
 | Potenciómetro	| Genérico | Regular la intensidad | 34 | Entrada ADC 12 bits |
 | Encoder | HC-020K | Alta precisión en pulsos | 27 | Pulso por interrupción |
-| PANTALLA LCD | 16X2 I2C | Interfaz usuario	Permite mostrar RPM y estado | SDA - 21 / SCL - 22 | Comunicación BME280 |
- | BATERÍA | LIPO | Alta descarga, estable para motores brushless | Alimentsción | 3S (11.1V) |
+| Pantalla LCD | 16X2 I2C | Interfaz usuario	Permite mostrar RPM y estado | SDA - 21 / SCL - 22 | Comunicación BME280 |
+ | Batería | LIPO | Alta descarga, estable para motores brushless | Alimentsción | 3S (11.1V) |
  | ESP 32 | WROOM I2C | Control principal	WiFi, Bluetooth, multitarea con FreeRTOS | SDA - 21 / SCL - 22 | Comunicación BME280 |
  | BME280 | Sensor ambiente| Muy preciso, bajo consumo
  |  | Comunicación BME280 | 
